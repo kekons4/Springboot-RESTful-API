@@ -1,0 +1,19 @@
+2019-11-18 15:29:37.188  INFO 11838 --- [main] com.example.DopeApplication              : Starting DopeApplication v0.0.1-SNAPSHOT on pi02 with PID 11838 (/home/pi/dope/target/yayeet-0.0.1-SNAPSHOT.jar started by root in /home/pi/dope/src/main/java/com/example/dao)
+2019-11-18 15:29:37.238  INFO 11838 --- [main] com.example.DopeApplication              : No active profile set, falling back to default profiles: default
+2019-11-18 15:29:46.976  INFO 11838 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 15:29:47.383  INFO 11838 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236ms. Found 0 repository interfaces.
+2019-11-18 15:29:56.483  INFO 11838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-18 15:29:58.053  INFO 11838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-18 15:29:59.219  INFO 11838 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-18 15:30:00.390  INFO 11838 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.0.Final}
+2019-11-18 15:30:00.422  INFO 11838 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-18 15:30:03.423  INFO 11838 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-18 15:30:07.127  INFO 11838 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 15:30:15.842  INFO 11838 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 15:30:15.872  INFO 11838 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 15:30:23.171  INFO 11838 --- [main] com.example.DopeApplication              : Started DopeApplication in 53.94 seconds (JVM running for 64.341)
+2019-11-18 15:30:25.232  INFO 11838 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 15:30:25.267  INFO 11838 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-18 15:30:25.317  INFO 11838 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

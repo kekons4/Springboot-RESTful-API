@@ -1,0 +1,8 @@
+2019-12-16 09:46:20.901  WARN 83638 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h38m41s616ms).
+2019-12-16 09:46:42.503  WARN 83638 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=21s603ms), soft-evicting connections from pool.
+2019-12-16 09:47:42.137  WARN 83638 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s626ms), soft-evicting connections from pool.
+2019-12-16 10:02:10.623  WARN 83638 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s440ms), soft-evicting connections from pool.
+2019-12-16 13:49:09.648  INFO 83638 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-16 13:49:09.657  INFO 83638 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-16 13:49:09.704  INFO 83638 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-16 13:49:33.272  INFO 83638 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
